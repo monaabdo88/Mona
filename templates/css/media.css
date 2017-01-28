@@ -1,0 +1,13 @@
+@media (max-width:767px){.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse{padding-top:10px;padding-bottom:10px;}
+a.navbar-brand{padding-bottom:20px;}
+.subscribe .form-control{margin:20px auto;width:auto;font-size:15px;}
+.navbar-fixed-top
+.navbar-collapse{max-height:none;}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{color:#282828;font-weight:bold;}
+.inner_form h3{font-size:14px;}
+footer .social_media span{font-size:18px;width:30px;height:30px;padding:2px 2px;}
+}
+@media (min-width:768px){}
+@media (min-width:992px){}
+@media (min-width:1200px){}

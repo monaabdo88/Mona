@@ -1,0 +1,113 @@
+.noPadding {
+	padding: 0;
+}
+body {
+	background: #e6e6e6;
+    font-family: Gill Sans MT Condensed;
+    font-size: 22px;
+}
+.navbar-brand{
+    font-size: 32px;
+    text-shadow: 0 0 3px #282828;
+}
+.nav a{
+    font-size:22px;
+    text-shadow: 0 0 3px #282828;
+}
+
+.dropdown-menu > li > a{
+    text-shadow:none;
+}
+.container {
+	background: white;
+}
+.home{
+    padding:25px;
+    margin-bottom: 80px;
+}
+.single-item {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 320px;
+	border: solid 1px silver;
+	box-shadow: 0 0 5px gray;
+}
+.top {
+	background: maroon;
+	height: 200px;
+	}
+	.top img {
+		height: 100%;
+		width: 100%;
+	}
+.bottom{
+	height: 100px;
+	
+}
+
+.item-title {
+	color: maroon;
+	margin-top: 0;
+	margin-left: 10px;
+	padding-top: 10px;
+    font-size: 20px;
+}
+
+.cutted-price {
+	font-size: 18px;
+	margin-right: 10px;
+}
+.discounted-price {
+	font-size: 18px;
+	margin-right: 10px;
+	color: maroon;
+	font-style: italic;
+}
+
+.pp-title {
+	font-size: 40px;
+	
+}
+.pp-desc-head {
+	font-size: 25px;
+	text-decoration: underline;
+}
+.pp-desc-detail p {
+	font-size: 20px;
+}
+.pp-desc-detail ul {
+	
+	margin-top: 30px;
+}
+.pp-desc-detail ul  li{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.pro-img{
+    width:100%;
+    max-height: 450px;
+}
+.list-group {}
+.list-group .list-group-item {
+	font-size: 22px;
+	border-right: 0;
+	border-left: 0;
+	padding: 45px 0 45px 0;
+    transition: background 1s;
+}
+.list-group .list-group-item:hover {
+	background: #e6ffee;
+}
+.panel {
+	border-radius: 0;
+	
+}
+.btn {
+	border-radius: 0;
+	font-size: 22px;
+}
+p.copyright{
+    color:#fff;
+    padding-top:5px;
+}
+#scroll-top{width:50px;height:40px;color:#DDD;text-align:center;position:fixed;right:25px;bottom:15px;z-index:9999;display:none;cursor:pointer;}
