@@ -13,7 +13,7 @@ function order_status_func(order_status,order_id){
 						document.getElementById('get_item_data_list').innerHTML = xmlhttp.responseText;
 					}
 				}
-				xmlhttp.open('GET', 'order_list_process.php?order_status='+order_status+'&order_id='+order_id, true);
+				xmlhttp.open('GET', 'orders.php?order_status='+order_status+'&order_id='+order_id, true);
 				xmlhttp.send();
 				window.location = "orders.php";
 			}
@@ -21,6 +21,12 @@ function order_status_func(order_status,order_id){
 
    
 </script>
+<?php 
+if(isset($_REQUEST['order_status'])){
+    $order_sql = "update orders set status = '$_REQUEST[order_status]' where order_id = '$_REQUEST[order_id]'";
+    $run_order = mysqli_query($conn,$order_sql);
+}
+?>
 <div class="wrapper row-offcanvas row-offcanvas-left">
 <aside class="left-side sidebar-offcanvas">
 <!-- sidebar: style can be found in sidebar.less -->
